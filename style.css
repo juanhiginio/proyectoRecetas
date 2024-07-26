@@ -139,3 +139,29 @@ td, th {
     width: 220px;
     height: 37px;
 }
+
+@media screen and (max-width: 930px) {
+
+    .card-superior {
+        display: none;
+    }
+
+    .linkPrincipal {
+        width: 103px;
+        text-align: center;
+    }
+
+    .botones {
+        flex-direction: column;
+    }
+
+    .boton {
+        width: 100%;
+        position: relative;
+        left: -20px;
+    }
+
+    table tr td:nth-of-type(2) {
+        text-align: right;
+    }
+}
