@@ -27,8 +27,10 @@ body {
 }
 
 .contenedor-logo {
+    position: relative;
     background-color: #255538;
     display: flex;
+    flex-direction: row;
     align-items: center;
     border-radius: 15px;
 }
@@ -38,6 +40,8 @@ body {
 }
 
 .linkPrincipal {
+    position: absolute;
+    right: 15px;
     color: whitesmoke;
     text-decoration: none;
     margin-left: 320px;
@@ -130,7 +134,8 @@ td, th {
 }
 
 .logo-copyright {
+    position: absolute;
+    right: 10px;
     width: 220px;
     height: 37px;
-    margin-left: 300px;
 }
